@@ -3,15 +3,27 @@
   "version": "1.0.0",
   "main": "index",
   "dependencies": {
-    "bluebird" : "3.5.1",
-    "cheerio": "1.0.0-rc.2",
-    "follow-redirects": "1.2.6",
-    "image-size": "0.6.2",
-    "log-util": "1.2.0",
-    "mkdirp": "0.5.1",
-    "object-assign": "4.1.1"
+    "amphtml-validator": "^1.0.21",
+    "bluebird" : "^3.5.1",
+    "cheerio": "^1.0.0-rc.2",
+    "ejs": "^2.5.7",
+    "follow-redirects": "^1.2.6",
+    "hasha": "^3.0.0",
+    "hexo-fs": "^1.0.2",
+    "hexo-util": "^0.6.3",
+    "html-minifier": "^3.5.8",
+    "image-size": "^0.6.2",
+    "log-util": "^1.2.0",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.20.1",
+    "nib": "^1.1.2",
+    "node-sass": "^4.12.0",
+    "object-assign": "^4.1.1",
+    "pug": "^2.0.0-rc.4",
+    "stylus": "^0.54.5"
   },
-  "description": "Eyecatch collector for Hexo 3.7.",
+  "description": "eyecatch collector for Hexo.",
   "devDependencies": {},
   "directories": {
     "lib": "./lib"
@@ -22,10 +34,19 @@
     "url": "https://photo-tea.com/"
   },
   "bugs": {
-    "url": "https://github.com/tea3/hexo-eyecatch-collector/issues"
+    "url": "https://github.com/tea3/hexo-generator-amp/issues"
   },
   "keywords": [
-    "hexo"
+    "auto",
+    "generator",
+    "hexo",
+    "blog",
+    "amp",
+    "html",
+    "google",
+    "mobile",
+    "The-Accelerated-Mobile-Pages",
+    "Static-site-generator"
   ],
   "license": "MIT",
   "maintainers": [
@@ -36,6 +57,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tea3/hexo-eyecatch-collector.git"
+    "url": "git+https://github.com/tea3/hexo-generator-amp.git"
   }
 }
