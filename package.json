@@ -1,0 +1,41 @@
+{
+  "name": "hexo-eyecatch-collector",
+  "version": "1.0.0",
+  "main": "index",
+  "dependencies": {
+    "bluebird" : "3.5.1",
+    "cheerio": "1.0.0-rc.2",
+    "follow-redirects": "1.2.6",
+    "image-size": "0.6.2",
+    "log-util": "1.2.0",
+    "mkdirp": "0.5.1",
+    "object-assign": "4.1.1"
+  },
+  "description": "Eyecatch collector for Hexo 3.7.",
+  "devDependencies": {},
+  "directories": {
+    "lib": "./lib"
+  },
+  "author": {
+    "email": "tea3gtinfo@gmail.com",
+    "name": "tea3",
+    "url": "https://photo-tea.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/tea3/hexo-eyecatch-collector/issues"
+  },
+  "keywords": [
+    "hexo"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "tea3gt",
+      "email": "tea3gtinfo@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tea3/hexo-eyecatch-collector.git"
+  }
+}
